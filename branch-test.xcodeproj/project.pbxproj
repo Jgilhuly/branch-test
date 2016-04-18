@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1894231CC46F0100F5BEE1 /* DLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1894221CC46F0100F5BEE1 /* DLController.swift */; };
 		CD9F68121CBC66B500750C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F68111CBC66B500750C62 /* AppDelegate.swift */; };
 		CD9F68141CBC66B500750C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F68131CBC66B500750C62 /* ViewController.swift */; };
 		CD9F68171CBC66B500750C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9F68151CBC66B500750C62 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD1894221CC46F0100F5BEE1 /* DLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLController.swift; sourceTree = "<group>"; };
 		CD9F680E1CBC66B500750C62 /* branch-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "branch-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9F68111CBC66B500750C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9F68131CBC66B500750C62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				CD9F68511CBC766B00750C62 /* branch-test.entitlements */,
 				CD9F68111CBC66B500750C62 /* AppDelegate.swift */,
 				CD9F68131CBC66B500750C62 /* ViewController.swift */,
+				CD1894221CC46F0100F5BEE1 /* DLController.swift */,
 				CD9F68151CBC66B500750C62 /* Main.storyboard */,
 				CD9F68181CBC66B500750C62 /* Assets.xcassets */,
 				CD9F681A1CBC66B500750C62 /* LaunchScreen.storyboard */,
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9F68141CBC66B500750C62 /* ViewController.swift in Sources */,
+				CD1894231CC46F0100F5BEE1 /* DLController.swift in Sources */,
 				CD9F68121CBC66B500750C62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

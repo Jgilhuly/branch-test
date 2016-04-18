@@ -18,14 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let branch: Branch = Branch.getInstance()
-        branch.initSessionWithLaunchOptions(launchOptions, andRegisterDeepLinkHandler: { params, error in
-            if (error == nil) {
-                // params are the deep linked params associated with the link that the user clicked -> was re-directed to this app
-                // params will be empty if no data found
-                // ... insert custom logic here ...
-                NSLog("params: %@", params.description)
-            }
-        })
+        var controller = UIStoryboard.init(name: "Main", bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier("DLController")
+        
+        branch.registerDeepLinkController(controller, forKey: "product_picture")
+        branch.initSessionWithLaunchOptions(launchOptions, automaticallyDisplayDeepLinkController: true)
+
+
         
         return true
     }

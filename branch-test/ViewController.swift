@@ -12,6 +12,7 @@ import Branch
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var imageV: UIImageView!
     @IBOutlet weak var linkField: UITextField!
     @IBOutlet weak var createLink: UIButton!
     @IBOutlet weak var titleField: UITextField!
@@ -31,6 +32,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
     @IBAction func createLink(sender: AnyObject) {
         let branchUniversalObject: BranchUniversalObject = BranchUniversalObject(canonicalIdentifier: "item/12345")
